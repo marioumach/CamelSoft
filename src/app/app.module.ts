@@ -10,6 +10,10 @@ import { CasestudiesComponent } from './casestudies/casestudies.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import {FlexLayoutModule  } from "@angular/flex-layout";
+import { NavbarComponent } from './navbar/navbar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AcceuilComponent } from './acceuil/acceuil.component';
+import { ServicesComponent } from './services/services.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,14 +21,18 @@ import {FlexLayoutModule  } from "@angular/flex-layout";
     AboutusComponent,
     CasestudiesComponent,
     PortfolioComponent,
-    ContactusComponent
+    ContactusComponent,
+    NavbarComponent,
+    AcceuilComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatangModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

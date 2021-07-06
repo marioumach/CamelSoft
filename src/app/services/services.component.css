@@ -1,0 +1,40 @@
+.services{
+    background-color: #000733;
+    height:46vw ; 
+    padding: 5%;
+}
+mat-card{
+    width: 100%;
+    background-color: #000839;
+    color: white;
+    border-radius: 10%;
+}
+mat-card-title{
+    font-family: Mont-75Bd,sans-serif!important;
+    color: #FFFFFF;
+    font-size:2vw;
+    padding-top: 0.5vw;
+}
+mat-card-content{
+    font-family:Mont-65Md,sans-serif;
+    font-size:0.9vw;
+    line-height: 1.5vw;
+    margin-top: 1vw;
+
+}
+.example-header-image {
+    background-size: 100% 100%;
+    border-radius: 0% !important;
+  }
+h3{     color: #619EF5!important;
+        font-family: Mont-65Md,sans-serif!important;
+        font-size: 1.145833333vw;
+        margin-bottom:0.989583333vw ;
+}
+h2{
+    color: #FFFFFF;
+    font-family: Mont-65Md,sans-serif!important;
+    font-size: 1.770833333vw;
+    margin-bottom:4.427083333vw ;
+
+}

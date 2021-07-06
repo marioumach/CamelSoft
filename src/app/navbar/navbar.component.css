@@ -1,0 +1,21 @@
+.nav-link{
+    text-align: left;
+    font-family: Mont-65Md,sans-serif!important;
+    font-size: 22px;
+    color: #FFFFFF!important
+}
+.groupe43{
+    width: 233px;
+    height: 53px;
+}
+button{
+    width: 11.09375vw;
+    height: 3.125vw;
+    border-radius: 12px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #619EF5;
+    font-family: Mont-65Md,sans-serif!important;
+    font-size: 1.145833333vw;
+ 
+}

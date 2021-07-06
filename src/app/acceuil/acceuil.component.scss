@@ -1,0 +1,22 @@
+
+.navbar{
+    width: 100%;
+    }
+    
+.imagAccueil{
+        position: absolute;
+        top: -27.041667vw;
+        left: -27.041667vw;
+        img{
+          width: 68vw;
+          height: 68vw;
+        }
+      }
+      .imagAccueil2{
+        position: absolute;
+        top: 15.625vw;
+        left: 15.520833333vw;
+        z-index: 9;
+        width: 39.638542vw !important;
+        height: 35.638542vw !important;
+      }
