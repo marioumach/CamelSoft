@@ -1,12 +1,14 @@
 .nav-link{
     text-align: left;
     font-family: Mont-65Md,sans-serif!important;
-    font-size: 22px;
-    color: #FFFFFF!important
+    font-size: 1vw;
+    color: #FFFFFF!important;
+    z-index: 100;
+    
 }
 .groupe43{
-    width: 233px;
-    height: 53px;
+    width: 20vw;
+    height: auto;
 }
 button{
     width: 11.09375vw;

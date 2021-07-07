@@ -1,0 +1,42 @@
+.section {
+  margin-bottom: 3vw;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  .section1 {
+    width: 90% !important;
+    margin: 0 auto;
+    z-index: 9;
+
+    .router {
+      margin-top: 2vw;
+
+      a {
+        font-family: Mont-65Md, sans-serif !important;
+        font-size: 1.145833333vw;
+        line-height: 2vw;
+        color: #FFFFFF;
+        margin-bottom: 1vw;
+
+      }
+    }
+
+    h1 {
+      font-family: Mont-65Md, sans-serif !important;
+      margin-bottom: 2vw;
+      margin-top: 2vw;
+      color: #FFFFFF !important;
+      font-size: 2.3vw;
+      width: 65%;
+      line-height: 3.5vw;
+    }
+
+    p {
+      font-family: Mont-65Md, sans-serif !important;
+      line-height: 2vw;
+      color: #FFFFFF;
+      margin-bottom: 1vw;
+
+    }
+  }
+}

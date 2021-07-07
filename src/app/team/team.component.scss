@@ -1,0 +1,19 @@
+.section {
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+  margin-left: 10%;
+  .section5 {
+    width: 90% !important;
+    z-index: 9;
+      .team {
+        border-radius: 50%;
+        width: 7.5vw;
+        height: 7.5vw;   
+        margin-bottom: 3vw; 
+    }
+    .icons{
+      width: 1.5vw;
+      height: 1.5vw;
+    }
+  }
+}

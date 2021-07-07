@@ -14,6 +14,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { ServicesComponent } from './services/services.component';
+import { WhoweareComponent } from './whoweare/whoweare.component';
+import { StatsComponent } from './stats/stats.component';
+import { ValuesComponent } from './values/values.component';
+import { WorkComponent } from './work/work.component';
+import { TeamComponent } from './team/team.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +29,12 @@ import { ServicesComponent } from './services/services.component';
     ContactusComponent,
     NavbarComponent,
     AcceuilComponent,
-    ServicesComponent
+    ServicesComponent,
+    WhoweareComponent,
+    StatsComponent,
+    ValuesComponent,
+    WorkComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
