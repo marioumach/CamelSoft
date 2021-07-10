@@ -1,7 +1,7 @@
 .nav-link{
     text-align: left;
     font-family: Mont-65Md,sans-serif!important;
-    font-size: 1vw;
+    font-size: 1.2vw;
     color: #FFFFFF!important;
     z-index: 100;
     
@@ -19,5 +19,4 @@ button{
     background-color: #619EF5;
     font-family: Mont-65Md,sans-serif!important;
     font-size: 1.145833333vw;
- 
 }

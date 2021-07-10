@@ -1,0 +1,47 @@
+.section {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  padding: auto;
+}
+
+h3 {
+  color: #619EF5 !important;
+  font-family: Mont-65Md, sans-serif !important;
+  font-weight: 600;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: Mont-65Md, sans-serif !important;
+}
+
+.image {
+  position: absolute;
+  width: 35vw;
+  left: 39.2vw;
+  margin-top: 1.5vw;
+}
+
+p {
+  font-family: Mont-65Md, sans-serif !important;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-bottom: 1vw;
+
+}
+
+button {
+  width: 11.09375vw;
+  height: 3.125vw;
+  border-radius: 12px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #619EF5;
+  font-family: Mont-65Md, sans-serif !important;
+}
+
+img {
+  width: 100%;
+}

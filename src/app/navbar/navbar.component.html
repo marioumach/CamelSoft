@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg w-100" fxLayout="row"  fxLayoutGap="3vw" fxlayoutalign="center space-between">
     <div fxLayout="row" fxLayoutAlign="space-between" >
-    <a  [routerLink]="'.'"><img class="groupe43" src="../../assets/images/Groupe 43.png" alt="Groupe 43"></a>
+    <a  [routerLink]="['']"><img class="groupe43" src="../../assets/images/Groupe 43.png" alt="Groupe 43"></a>
     <!-- Step 3: Toggle the value of the property when the toggler button is clicked. -->
     <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
       &#9776;
@@ -10,22 +10,22 @@
     <div [ngbCollapse]="isMenuCollapsed"  fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="50px" class=" w-100 collapse navbar-collapse">
       <ul class="navbar-nav w-100" fxLayout="row" fxLayoutAlign="space-around end">
         <li class="nav-item active">
-          <a class="nav-link"  [routerLink]="'.'" (click)="isMenuCollapsed = true">Home</a>
+          <a class="nav-link"  [routerLink]="['']" (click)="isMenuCollapsed = true">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="'about-us'" (click)="isMenuCollapsed = true">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Services</a>
+          <a class="nav-link"  href="#services" (click)="isMenuCollapsed = true">Services</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">How we work</a>
+            <a class="nav-link" href="#work" (click)="isMenuCollapsed = true">How we work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Case studies</a>
+            <a class="nav-link" href="#studies" (click)="isMenuCollapsed = true">Case studies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Portfolio</a>
+            <a class="nav-link" href="#portfolio" (click)="isMenuCollapsed = true">Portfolio</a>
           </li>
       </ul>
       <button mat-raised-button>Contact us</button>

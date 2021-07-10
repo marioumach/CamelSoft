@@ -19,6 +19,8 @@ import { StatsComponent } from './stats/stats.component';
 import { ValuesComponent } from './values/values.component';
 import { WorkComponent } from './work/work.component';
 import { TeamComponent } from './team/team.component';
+import { ClientsComponent } from './clients/clients.component';
+import { Portfolio1Component } from './portfolio1/portfolio1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +36,9 @@ import { TeamComponent } from './team/team.component';
     StatsComponent,
     ValuesComponent,
     WorkComponent,
-    TeamComponent
+    TeamComponent,
+    ClientsComponent,
+    Portfolio1Component
   ],
   imports: [
     BrowserModule,
